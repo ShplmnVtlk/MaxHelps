@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Images/favicon_package/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Images/favicon_package/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Images/favicon_package/favicon-16x16.png"
+    />
+    <link rel="manifest" href="Images/favicon_package/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="Images/favicon_package/safari-pinned-tab.svg"
+      color="#4d96ab"
+    />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Max Helps</title>
+  </head>
+  <body>
+    <section class="section section-hero" style=" background-image: url(Images/hero-bg.png)">
+      <div class="container">
+        <header class="header">
+          <a href="./index.html" class="header__logo">
+            <img src="Images/logo.png" alt="logo" />
+          </a>
+          <div class="header__text">
+            <div class="header__contacts">
+              <div class="phone">
+                <img src="Images/icon-phone.svg" alt="phone-icon" />
+                <a href="tel:380679538597">+380 67 953 85 97</a>
+              </div>
+              <div class="mail">
+                <img src="Images/icon-mail.svg" alt="mail-icon" />
+                <a href="mailto:MaxHelps@gmail.com">MaxHelps@gmail.com</a>
+              </div>
+            </div>
+            <nav class="header__nav">
+              <a href="#" class="nav__item active">Home</a>
+              <a href="#" data-goto=".about" class="nav__item">About</a>
+              <a href="#" data-goto=".help" class="nav__item"
+                >Military Aid / Ask for help</a
+              >
+              <a href="#" data-goto=".donate" class="nav__item">Donate</a>
+              <a href="#" data-goto=".blog" class="nav__item">Blog</a>
+              <a href="#" class="nav__item">Contact Us</a>
+            </nav>
+          </div>
+          <div class="menu-icon">
+            <span></span>
+          </div>
+        </header>
+
+        <div class="hero__content">
+          <h2>Support Our Volunteers</h2>
+          <p>We works to provide necessary supplies to the Army</p>
+          <div class="buttons">
+            <a href="#">Donate</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section about">
+      <div class="container">
+        <div class="about__item">
+          <div class="about__img first">
+            <img src="Images/about-1.png" alt="" />
+          </div>
+          <div class="about__text">
+            <div class="about__title">
+              <h3>Max Helps</h3>
+            </div>
+            <h4>Dear friends!</h4>
+            <p>
+              As you know, our homeland is at war and volunteers and charities
+              are working day and night to hasten our victory over the ‘Russian
+              peace’.
+            </p>
+            <p>
+              Ukraine’s largest and best-known funds which are receiving
+              donations are unfortunately not agile enough to timely process and
+              respond to our defenders’ urgent requests and administer to their
+              immediate needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="reverse">
+          <div class="about__img second reverse">
+            <img src="Images/about-2.png" alt="" />
+          </div>
+          <p class="about-subpage">
+            So, with God’s help and trust in the Ukrainian army, in the last two
+            months I’ve managed to find reliable suppliers of individual
+            equipment, walkie-talkie radios, helmets, tactical gear, thermal
+            imaging cameras, night vision devices, first aid kits, medication,
+            emergency response vehicles, etc., as well as to build a robust
+            system for their shipment from Europe to Ukraine and then delivery
+            to our defenders at the frontline. This system has given birth to
+            the Max Helps charity fund.
+          </p>
+          <a href="./about.html">See More</a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="help">
+          <div class="help__item">
+            <div class="help__content left" style="background-image: url(Images/help-1.png);">
+              <h4>
+                Send armour, ammunition, first-aid kits, equipment for Ukrainian
+                military
+              </h4>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+          <div class="help__item">
+            <div class="help__content right" style="background-image: url(Images/help-2.png);">
+              <h4>
+                If you are a soldier from Ukrainian army, you may request help:
+              </h4>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="donate">
+          <h1 class="donate-title">
+            Transfer money to purchase supplies for Ukrainian army
+          </h1>
+
+          <div class="donate__tabs">
+            <nav class="tabs__items">
+              <div class="tabs__item active" data-tab="#uah">
+                <img src="Images/uah.svg" alt="" />
+               <span>uah</span>
+              </div>
+              <div class="tabs__item" data-tab="#gbp">
+                <img src="Images/gbp.svg" alt="" />
+                <span>gbp</span>
+              </div>
+              <div class="tabs__item" data-tab="#eur">
+                <img src="Images/eur.svg" alt="" />
+                <span>eur</span>
+              </div>
+              <div class="tabs__item" data-tab="#usd">
+                <img src="Images/usd.svg" alt="" />
+                <span>usd</span>
+              </div>
+              <div class="tabs__item" data-tab="#crypto">
+                <img src="Images/crypto.svg" alt="" />
+                <span>cryp</span>
+              </div>
+            </nav>
+          </div>
+          <div class="tabs__body">
+            <div id="uah" class="tabs__block active">
+              <p>
+                <strong>Legal entity:</strong> “CHARITY FUNDATION “MAX HELPS”
+                CHARITY ORGANIZATION
+              </p>
+              <p>
+                <strong>Enterprise code:</strong> 44791723
+              </p>
+              <p>
+                <strong>Currency of account:</strong> UAH
+              </p>
+              <p>
+                <strong>Account number:</strong> UA413510050000026008879140523
+              </p>
+              <p>
+                <strong>Bank name:</strong> JOINT STOCK COMPANY “UKRSIBBANK”
+              </p>
+            </div>
+            <div id="gbp" class="tabs__block">
+              <p>
+                <strong>Legal entity:</strong> “CHARITY FUNDATION “MAX HELPS”
+                CHARITY ORGANIZATION
+              </p>
+              <p>
+                <strong>Enterprise code:</strong> 44791723
+              </p>
+              <p>
+                <strong>Currency of account:</strong> GBP
+              </p>
+              <p>
+                <strong>Account number:</strong> UA163510050000026004879140527
+              </p>
+              <p>
+                <strong>Bank name:</strong> JOINT STOCK COMPANY “UKRSIBBANK”
+              </p>
+              <p>
+                <strong>Beneficiary bank( JSC “UKRSIBBANK”): </strong>10947113,
+                UKRSIBBANK, ANDRIIVSKA STREET 2/12 KYIV, UKRAINE, SWIFT CODE:
+                KHABUA2K
+              </p>
+              <p>
+                <strong>Intermediary Bank:</strong> CITIBANK NA, LONDON, GREAT
+                BRITAIN, SWIFT CODE: CITIGB2L
+              </p>
+            </div>
+            <div id="eur" class="tabs__block">
+              <p>
+                <strong>Legal entity:</strong> “CHARITY FUNDATION “MAX HELPS”
+                CHARITY ORGANIZATION
+              </p>
+              <p>
+                <strong>Enterprise code:</strong> 44791723
+              </p>
+              <p>
+                <strong>Currency of account:</strong> EUR
+              </p>
+              <p>
+                <strong>Account number:</strong> UA953510050000026005879140526
+              </p>
+              <p>
+                <strong>Bank name:</strong> JOINT STOCK COMPANY “UKRSIBBANK”
+              </p>
+              <p>
+                <strong>Beneficiary bank( JSC “UKRSIBBANK”): </strong>07205696,
+                UKRSIBBANK, ANDRIIVSKA STREET 2/12 KYIV, UKRAINE, SWIFT CODE:
+                KHABUA2K
+              </p>
+              <p>
+                <strong>Intermediary Bank:</strong> BNP PARIBAS SA, PARIS, FRANCE,
+                SWIFT CODE: BNPAFRPP
+              </p>
+            </div>
+            <div id="usd" class="tabs__block">
+              <p>
+                <strong>Legal entity:</strong> “CHARITY FUNDATION “MAX HELPS”
+                CHARITY ORGANIZATION
+              </p>
+              <p>
+                <strong>Enterprise code:</strong> 44791723
+              </p>
+              <p>
+                <strong>Currency of account:</strong> USD
+              </p>
+              <p>
+                <strong>Account number:</strong> UA773510050000026006879140525
+              </p>
+              <p>
+                <strong>Bank name:</strong> JOINT STOCK COMPANY “UKRSIBBANK”
+              </p>
+              <p>
+                <strong>Beneficiary bank( JSC “UKRSIBBANK”):</strong>
+                020061151200138, UKRSIBBANK, ANDRIIVSKA STREET 2/12 KYIV,
+                UKRAINE, SWIFT CODE: KHABUA2K
+              </p>
+              <p>
+                <strong>Intermediary Bank:</strong> BNP PARIBAS U.S.A. – NEW YORK
+                BRANCH, NEW YORK, USA, SWIFT CODE: BNPAUS3N
+              </p>
+            </div>
+            <div id="crypto" class="tabs__block">
+              <p>
+                <strong>BTC:</strong> bc1qdu95vhfc070drpjpkayldkchc9xnhcnrynsz6d
+              </p>
+              <p>
+                <strong>ETH:</strong> 0x8A6e67FB45398CB27b04b0fce39F420f5137461a
+              </p>
+              <p>
+                <strong>BNB:</strong> bnb17q54u2g5srgn4fgkenqknqlnfz0j6kdc5qfsez
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="blog">
+          <div class="blog__header">
+            <h4>Our Blog</h4>
+            <div class="blog__link">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="blog__news">
+            <a href="#" class="blog__item">
+               <div class="blog__img">
+                <img src="Images/blog-1.png" alt="MaxHelps">
+              </div>
+              <div class="blog__text">
+                <h5>Ipsum viverra quis quam volutpat</h5>
+                <p>
+                  Tincidunt rhoncus malesuada vulputate etiam commodo nulla
+                  lobortis vitae, tellus. Molestie euismod.
+                </p>
+              </div>
+            </a>
+            <a href="#" class="blog__item">
+
+              <div class="blog__img">
+                <img src="Images/blog-2.png" alt="MaxHelps">
+              </div>
+
+              <div class="blog__text">
+                <h5>Ipsum viverra quis quam volutpat</h5>
+                <p>
+                  Tincidunt rhoncus malesuada vulputate etiam commodo nulla
+                  lobortis vitae, tellus. Molestie euismod.
+                </p>
+              </div>
+            </a>
+            <a href="#" class="blog__item">
+
+
+              <div class="blog__img">
+                <img src="Images/blog-3.png" alt="MaxHelps">
+              </div>
+
+
+              <div class="blog__text">
+                <h5>Ipsum viverra quis quam volutpat</h5>
+                <p>
+                  Tincidunt rhoncus malesuada vulputate etiam commodo nulla
+                  lobortis vitae, tellus. Molestie euismod.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="logo">
+            <img src="Images/logo.png" alt="logo" />
+          </div>
+          <div class="greeting">
+            <p>Glory to <strong>Ukraine</strong>!</p>
+            <p>Glory to <strong>Heroes</strong>!</p>
+          </div>
+          <div class="contacts">
+            <div class="phone footer-phone">
+              <img src="Images/icon-phone.svg" alt="phone-icon" />
+              <a href="tel:380679538597">+380 67 953 85 97</a>
+            </div>
+            <div class="mail footer-mail">
+              <img src="Images/icon-mail.svg" alt="mail-icon" />
+              <a href="mailto:MaxHelps@gmail.com">MaxHelps@gmail.com</a>
+            </div>
+          </div>
+          <div class="socials">
+            <a
+              href="https://www.facebook.com/max.helps/posts/126961626634875"
+              target="_blank"
+              class="fb"
+            >
+              <img src="Images/facebook.svg" alt="facebook" />
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/scripts.js" />
+  </body>
+</html>
