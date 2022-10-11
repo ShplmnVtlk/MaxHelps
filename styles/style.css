@@ -527,8 +527,8 @@ body.lock {
 /* Donate subpage */
 
 .blog__header h4 {
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 600;
+  font-size: 27px;
   line-height: 150%;
   color: #fff;
 }
@@ -781,7 +781,7 @@ form h2 {
   margin-top: 3px;
   border: none;
   border-bottom: 2px solid #ffb901;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
   color: #a0a3a5;
 }
 
@@ -870,7 +870,6 @@ form h2 {
     font-size: 17px;
     margin-bottom: 25px;
   }
-
 }
 
 @media (max-width: 940px) {
@@ -1202,7 +1201,6 @@ form h2 {
     margin-bottom: 10px;
   }
 
-  
   .about-subpage {
     font-size: 16px;
     margin-bottom: 10px;
@@ -1284,6 +1282,9 @@ form h2 {
   }
   .gallery-container {
     height: 300px;
+  }
+  img.img-fluid {
+    max-height: 60px;
   }
 }
 
