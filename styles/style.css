@@ -89,6 +89,22 @@ body.lock {
   text-decoration: underline;
 }
 
+.switcher-leng {
+  margin-left: 25px;
+}
+
+.switcher-leng a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.switcher-leng a.active {
+  color: #ffb901;
+}
+
 .nav__item {
   margin-right: 50px;
   text-decoration: none;
@@ -963,6 +979,10 @@ form h2 {
   }
   .phone {
     margin-bottom: 25px;
+  }
+  .switcher-leng {
+    margin-left: 0;
+    margin-top: 35px;
   }
   .header__nav {
     display: flex;
