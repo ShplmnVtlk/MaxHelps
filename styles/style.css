@@ -614,6 +614,32 @@ body.lock {
   color: #a0a3a5;
 }
 
+.f3-widget-paginator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 20px 0 20px;
+}
+
+.f3-widget-paginator li {
+  margin-right: 13px;
+  margin-bottom: 10px;
+}
+
+.f3-widget-paginator li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  transition: all 0.2s linear;
+}
+
+.f3-widget-paginator li.current {
+  color: #ffb901;
+}
+
 /* subpage news */
 
 .news__header {
