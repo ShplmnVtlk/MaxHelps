@@ -110,6 +110,11 @@ body.lock {
   color: #ffb901;
 }
 
+.header__nav {
+  display: flex;
+  justify-content: end;
+}
+
 .nav__item {
   margin-right: 50px;
   text-decoration: none;
@@ -353,7 +358,7 @@ body.lock {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 45px;
+  padding: 30px;
   height: 280px;
   background-position: -10px 0;
   background-repeat: no-repeat;
@@ -361,7 +366,7 @@ body.lock {
 
 .help__content h4 {
   font-weight: 700;
-  font-size: 23px;
+  font-size: 21px;
   line-height: 150%;
   min-height: 100px;
   color: #fff;
@@ -1271,6 +1276,7 @@ form h2 {
   }
   .help__content h4 {
     font-size: 14px;
+    margin-bottom: 0;
   }
   .tabs__body {
     padding: 0 10px;
@@ -1317,11 +1323,15 @@ form h2 {
 @media (max-width: 400px) {
   .help__content h4 {
     font-size: 12px;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
   }
   .help__content button {
     font-size: 12px;
     padding: 7px 15px;
+  }
+
+  .help__content a {
+    font-size: 14px;
   }
   .blog__item {
     flex-direction: column;
@@ -1340,8 +1350,22 @@ form h2 {
 }
 
 @media (max-width: 330px) {
+  .help__content {
+    padding: 8px;
+  }
   .help__content button {
     font-size: 10px;
+  }
+  .help__content a {
+    font-size: 11px;
+    padding: 7px 16px;
+  }
+  .hero__content .buttons a:first-child {
+    margin-right: 15px;
+    padding: 7px 20px;
+  }
+  .hero__content .buttons a:last-child {
+    font-size: 14px;
   }
 }
 
